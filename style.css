@@ -123,3 +123,49 @@ header{
 
 /*--------------- team style end here-------------- */
 
+
+/*--------------- Responsive style start here -----------------*/
+@media screen and (max-width: 576px) {
+    header,
+    .banner-title
+    {
+        padding: 15px;
+    }
+    .navber-container,
+    .team-container
+    {
+        flex-direction: column;
+    }
+    .banner-title h1{
+        padding: 15px;
+    }
+    .nav-body ul{
+    gap: 1.4rem;
+    }
+    .team-img{
+        grid-template-columns: 1fr;
+    }
+    .team-container{
+        margin: 0px;
+        padding: 10px;
+    }
+    .team-img img{
+        width: 420px;
+        height: 100%;
+    }
+    .team-title{
+        margin: 10px;
+    }
+    .btn-one{
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-title{
+        margin-bottom: 10px;
+    }
+}
+
+/*--------------- Responsive style start here -----------------*/
+
+
