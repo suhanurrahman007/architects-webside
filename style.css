@@ -12,11 +12,33 @@
     font-weight: 400;
     font-size: 15px;
 }
+.text-title{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 15px;
+
+}
+
+.btn{
+    background-color: #FF900E;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    transition: .3s;
+}
+
+.btn:hover{
+    background-color: #a25c0c;
+}
 header{
     background-color: #fbe9d4;
     padding: 1.5rem 7rem;
 }
 
+
+/*--------------- navber style start here-------------- */
 .navber-container{
     display: flex;
     justify-content: space-between;
@@ -64,3 +86,40 @@ header{
     font-size: 35px;
     padding: .5rem 11rem;
 }
+/*--------------- navber style end here-------------- */
+
+
+/*--------------- team style start here-------------- */
+.team-container{
+    margin: 1.8rem 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.team-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-right: 1rem;
+}
+
+.team-img img{
+    width: 200px;
+}
+
+.team-title{
+    padding: 2rem;
+    background-color: #f6eee4;
+}
+
+.quick-text{
+    color: #727272;
+}
+
+.feature-text{
+    color: #FF900E;
+}
+
+/*--------------- team style end here-------------- */
+
