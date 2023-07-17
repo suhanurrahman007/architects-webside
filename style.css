@@ -124,6 +124,63 @@ header{
 /*--------------- team style end here-------------- */
 
 
+
+/*--------------- feature style start here-------------- */
+.feature-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 3rem 7rem 0 7rem;
+}
+.feature-img{
+    width: 50%;
+    margin-left: 15px;
+}
+
+.feature-img img{
+    width: 100%;
+    height: 82%;
+
+}
+
+.feature-title{
+    width: 50%;
+    height: 100%;
+    margin-right: 15px;
+}
+
+.text-title-h{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.feature-body{
+    padding: 1rem;
+    background-color: lavender;
+    border-radius: 3px;
+    margin: 10px 0;
+}
+
+.btn-footer{
+    background-color: #FF900E;
+    color: #FFFFFF;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 7rem;
+    text-align: center;
+    position: relative;
+    top: -1.6rem;
+    left: -1rem;
+}
+.btn-footer p{
+    font-size: 12px;
+}
+
+/*--------------- feature style end here-------------- */
+
+
+
 /*--------------- Responsive style start here -----------------*/
 @media screen and (max-width: 576px) {
     header,
@@ -132,7 +189,8 @@ header{
         padding: 15px;
     }
     .navber-container,
-    .team-container
+    .team-container,
+    .feature-container
     {
         flex-direction: column;
     }
@@ -163,6 +221,18 @@ header{
 
     .nav-title{
         margin-bottom: 10px;
+    }
+
+    .feature-container{
+        margin: 0rem;
+        padding: 1rem;
+    }
+    .feature-title{
+        width: 100%;
+    }
+
+    .feature-img{
+        width: 95%;
     }
 }
 
