@@ -188,7 +188,7 @@ header{
 .facts-card-container {
     display: flex;
     justify-content: space-around;
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
 .facts-card-container .card {
@@ -209,6 +209,10 @@ header{
     color: #424242;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.text-width{
+    width: 50%;
 }
 /*--------------- facts style end here-------------- */
 
@@ -304,6 +308,9 @@ header{
 
     .facts, .sponsors>p{
         padding: 15px;
+    }
+    .text-width{
+        width: 100%;
     }
     .card{
         margin-bottom: 5px;
