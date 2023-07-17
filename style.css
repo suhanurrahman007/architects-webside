@@ -192,7 +192,7 @@ header{
 }
 
 .facts-card-container .card {
-    border-radius: 8px;
+    border-radius: 5px;
     border: 1px solid #FF900E;
     text-align: center;
     padding: 30px;
@@ -247,7 +247,8 @@ header{
     }
     .navber-container,
     .team-container,
-    .feature-container
+    .feature-container,
+    .facts-card-container
     {
         flex-direction: column;
     }
@@ -291,6 +292,18 @@ header{
     .feature-img{
         width: 95%;
     }
+
+    .facts, .sponsors>p{
+        padding: 15px;
+    }
+    .card{
+        margin-bottom: 5px;
+    }
+    .sponsors-img-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
 }
 
 /*--------------- Responsive style start here -----------------*/
